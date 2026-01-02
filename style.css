@@ -1039,6 +1039,20 @@ header {
         }
 }
 
+.how {
+    & .text-how {
+
+        & img {
+            width: 60%;
+        }
+
+        & .last-how {
+            width: 80%;
+        }
+
+    }
+}
+
 }
 
 @media (max-width: 768px) {
@@ -1052,6 +1066,20 @@ header {
 
         & .text-how-topic {
             font-size: 1.5rem;
+        }
+    }
+
+    .how {
+        & .text-how {
+    
+            & img {
+                width: 70%;
+            }
+    
+            & .last-how {
+                width: 90%;
+            }
+    
         }
     }
 
