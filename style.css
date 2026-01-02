@@ -1104,7 +1104,7 @@ header {
     header {
     
         & .bg {
-            object-position: -80vh 0px;
+            object-position: -90vh 0px;
         }
     }
 
@@ -1119,7 +1119,7 @@ header {
     header {
     
         & .bg {
-            object-position: -80vh 0px;
+            object-position: -90vh 0px;
         }
 
         & .logo {
