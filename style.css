@@ -892,12 +892,11 @@ header {
 
     header {
         width: 100%;
-        height: 57.4rem;
         position: relative;
         overflow: hidden;
     
         & .bg {
-            object-position: -600px 0px;
+            object-position: -70vh 0px;
         }
     
         & .logo {
