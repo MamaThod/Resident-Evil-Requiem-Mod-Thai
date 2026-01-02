@@ -1139,3 +1139,7 @@ header {
     100% { transform: translate(1%, 1%); }
 }
 
+
+body {
+    letter-spacing: 0px;
+}
