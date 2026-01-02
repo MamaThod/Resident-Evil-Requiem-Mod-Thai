@@ -817,6 +817,21 @@ header {
             margin-bottom: 10px;
             
         }
+
+        & img {
+            width: 40%;
+            height: auto;
+            background-color: red;
+            object-fit: contain;
+        }
+
+        & .last-how {
+            width: 60%;
+        }
+
+        & .text-how-topic.up{
+            margin-top: 10px;
+        }
     }
 
     & .text-topic {
