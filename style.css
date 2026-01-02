@@ -1115,11 +1115,11 @@ header {
     to { stroke-dashoffset: 0; }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
     header {
     
         & .bg {
-            object-position: -90vh 0px;
+            object-position: -110vh 0px;
         }
 
         & .logo {
