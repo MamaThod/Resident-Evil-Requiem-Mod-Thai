@@ -821,7 +821,6 @@ header {
         & img {
             width: 40%;
             height: auto;
-            background-color: red;
             object-fit: contain;
         }
 
