@@ -1101,11 +1101,34 @@ header {
         margin-top: -80px;
     }
 
+    header {
+    
+        & .bg {
+            object-position: -80vh 0px;
+        }
+    }
+
 }
 
 @keyframes fillProgress {
     from { stroke-dashoffset: 113.1; }
     to { stroke-dashoffset: 0; }
+}
+
+@media (max-width: 425px) {
+    header {
+    
+        & .bg {
+            object-position: -80vh 0px;
+        }
+
+        & .logo {
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
 }
 
 
