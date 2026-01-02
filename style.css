@@ -222,7 +222,7 @@ body, html {
 
 header {
     width: 100%;
-    height: 57.4rem;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 
