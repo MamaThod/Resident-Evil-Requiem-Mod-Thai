@@ -896,7 +896,7 @@ header {
         overflow: hidden;
     
         & .bg {
-            object-position: -70vh 0px;
+            object-position: 70% 0px;
         }
     
         & .logo {
@@ -1104,7 +1104,7 @@ header {
     header {
     
         & .bg {
-            object-position: -90vh 0px;
+            object-position: -150vh 0px;
         }
     }
 
