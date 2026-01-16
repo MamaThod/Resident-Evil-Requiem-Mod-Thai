@@ -683,19 +683,6 @@ header {
         left: -6%;
     }
 
-    & .line-top-preview-3 {
-        width: 111%;
-        position: absolute;
-        top: 43%;
-        left: -6%;
-    }
-
-    & .line-top-preview-4 {
-        width: 111%;
-        position: absolute;
-        top: 46%;
-        left: -6%;
-    }
 
     & .line-top-preview-5 {
         width: 111%;
@@ -730,6 +717,7 @@ header {
     & .btn-mod-area {
         width: 100%;
         padding: 20px 10px;
+        position: relative;
 
 
 
@@ -743,10 +731,25 @@ header {
             cursor: pointer;
             transition: 0.6s;
 
+
             &:hover {
                 box-shadow: inset 0 0 20px rgb(255, 255, 255);
             }
 
+        }
+
+        & .line-top-preview-3 {
+            width: 111%;
+            position: absolute;
+            bottom: 10px;
+            left: -6%;
+        }
+
+        & .line-top-preview-4 {
+            width: 111%;
+            position: absolute;
+            bottom: 0px;
+            left: -6%;
         }
 
     }
