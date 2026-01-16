@@ -1248,6 +1248,22 @@ header {
             }
         }
 
+        & .preview-area {
+
+            & .line-top-preview-3 {
+                top: 215px;
+            }
+
+            & .line-top-preview-4 {
+                top: 225px;
+            }
+
+            & .preview-area-for-item {
+                height: 200px;
+
+            }
+        }
+
     }
 
 
