@@ -1519,7 +1519,7 @@ body {
     /* Mobile-only Separator Lines (Inserted via HTML) */
     .line-mobile {
         display: block !important;
-        width: 120%;
+        width: 116%;
         height: auto;
         margin: 10px auto;
         opacity: 0.8;
@@ -1531,7 +1531,7 @@ body {
     .detail-mod .detail-area .item-area .item-team::after {
         content: "";
         display: block;
-        width: 120%;
+        width: 116%;
         height: 20px;
         background-image: url('./imgs/line/mask_line2.webp');
         background-size: contain;
