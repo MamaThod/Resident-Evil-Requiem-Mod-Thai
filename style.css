@@ -1207,35 +1207,22 @@ header {
     .text-detail.text-pic {
         text-align: center;
     }
-}
 
-@media (max-width: 450px) {
+    .detail-mod {
 
-    .mod-area {
-        .line-top-preview-3 {
-            top: 14vh;
+        & .update-mod {
+
+            & h1 {
+                font-size: 1rem;
+            }
         }
 
-        .line-top-preview-4 {
-            top: 15vh;
-        }
     }
 
-}
-
-@media (max-width: 358px) {
-
-    .mod-area {
-        .line-top-preview-3 {
-            top: 22vh;
-        }
-
-        .line-top-preview-4 {
-            top: 23vh;
-        }
-    }
 
 }
+
+@media (max-width: 425px) {}
 
 #rainCanvas {
     position: fixed;
