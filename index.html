@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ม็อดแปลภาษาไทย Resident Evil Requiem 100% โดยทีมมาม่าทอด - แปลมือ 100% รองรับ Deluxe Edition">
     <title>อาบะเรนเจอร์ - Resident Evil Requiem</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
     <link rel="icon" type="image/x-icon" href="./imgs/logo/logo web.png">
 </head>
+
 <body>
 
     <canvas id="rainCanvas"></canvas>
@@ -17,43 +23,64 @@
     <div class="area-l">
         <div class="detail" onclick="window.history.back()">
             <div class="img">
-                <img src="./imgs/icon/icon_arrow.webp" alt=""> 
-                <div class="text_b text_shaker" >กลับ</div>
-                
-            </div> 
-                
+                <img src="./imgs/icon/icon_arrow.webp" alt="">
+                <div class="text_b text_shaker">กลับ</div>
+
+            </div>
+
             <div class="line"></div>
         </div>
+
 
     </div>
 
+    <!-- Burger Menu Button -->
+    <div class="burger-menu">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+
     <div class="area-r">
         <div class="item">
-            <a href="#top" id="text" class="click-lik"><i class="fa-solid fa-angle-up"></i><div class="text_b text_shaker">ไปด้านบน</div></a>
+            <a href="#top" id="text" class="click-link"><i class="fa-solid fa-angle-up"></i>
+                <div class="text_b text_shaker">ไปด้านบน</div>
+            </a>
             <div class="line"></div>
         </div>
         <div class="item">
-            <a href="#detail" id="text"><i class="fa-solid fa-info"></i><div class="text_b text_shaker">รายละเอียดม็อด</div></a>
+            <a href="#detail" id="text"><i class="fa-solid fa-info"></i>
+                <div class="text_b text_shaker">รายละเอียดม็อด</div>
+            </a>
             <div class="line"></div>
         </div>
         <div class="item">
-            <a href="#team" id="text"><i class="fa-solid fa-people-group"></i><div class="text_b text_shaker">ทีมงาน</div></a>
+            <a href="#team" id="text"><i class="fa-solid fa-people-group"></i>
+                <div class="text_b text_shaker">ทีมงาน</div>
+            </a>
             <div class="line"></div>
         </div>
         <div class="item">
-            <a href="#preview" id="text"><i class="fa-solid fa-images"></i><div class="text_b text_shaker">รูปตัวอย่าง</div></a>
+            <a href="#preview" id="text"><i class="fa-solid fa-images"></i>
+                <div class="text_b text_shaker">รูปตัวอย่าง</div>
+            </a>
             <div class="line"></div>
         </div>
         <div class="item">
-            <a href="#logo-thai" id="text"><i class="fa-solid fa-gamepad"></i><div class="text_b text_shaker">โลโก้ไทย</div></a>
+            <a href="#logo-thai" id="text"><i class="fa-solid fa-gamepad"></i>
+                <div class="text_b text_shaker">โลโก้ไทย</div>
+            </a>
             <div class="line"></div>
         </div>
         <div class="item">
-            <a href="#download-mod" id="text"><i class="fa-solid fa-download"></i><div class="text_b text_shaker">โหลดม็อด</div></a>
+            <a href="#download-mod" id="text"><i class="fa-solid fa-download"></i>
+                <div class="text_b text_shaker">โหลดม็อด</div>
+            </a>
             <div class="line"></div>
         </div>
         <div class="item">
-            <a href="#how-to-install" id="text"><i class="fa-solid fa-computer"></i><div class="text_b text_shaker">วิธีลงม็อด</div></a>
+            <a href="#how-to-install" id="text"><i class="fa-solid fa-computer"></i>
+                <div class="text_b text_shaker">วิธีลงม็อด</div>
+            </a>
             <div class="line"></div>
         </div>
     </div>
@@ -72,20 +99,20 @@
             <a href="#detail"><i class="fa-solid fa-chevron-down"></i></a>
         </div>
 
-        
+
     </header>
 
     <div class="main">
         <div class="detail-mod">
             <p id="detail" class="text_shaker text-m text-topic">รายละเอียดม็อด</p>
 
-            
 
-            <h1 class="text-detail">ลงได้เฉพาะ PC Steam (แพลตฟอร์มอื่นยังไม่เคยลองลง)</h1>
-            <h1 class="text-detail">แปลภาษาไทย 100%</h1>
-            <h1 class="text-detail">แปลมือ 100%</h1>
-            <h1 class="text-detail">แปลเนื้อหาของ Deluxe Edition ด้วย</h1>
-            <h1 class="text-detail">แก้ไขโลโก้เกมเป็นภาษาไทย</h1>
+
+            <h1 class="text-detail reveal">ลงได้เฉพาะ PC Steam (แพลตฟอร์มอื่นยังไม่เคยลองลง)</h1>
+            <h1 class="text-detail reveal">แปลภาษาไทย 100%</h1>
+            <h1 class="text-detail reveal">แปลมือ 100%</h1>
+            <h1 class="text-detail reveal">แปลเนื้อหาของ Deluxe Edition ด้วย</h1>
+            <h1 class="text-detail reveal">แก้ไขโลโก้เกมเป็นภาษาไทย</h1>
             <div class="space"></div>
 
 
@@ -99,14 +126,25 @@
                 <img src="./imgs/line/mask_line1.webp" class="line-top-5" alt="">
 
                 <div class="item-area">
-                    <div class="item-team">
+                    <div class="item-team reveal">
+                        <!-- Line Above Name -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
                         <div class="text-name">
                             มาม่าทอด
                         </div>
+                        <!-- Line Below Name -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
+
                         <img src="./imgs/team/team1.webp" class="team-img" alt="">
+                        <!-- Line Above Duty -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
+
                         <div class="text-duty">
                             Modder
                         </div>
+                        <!-- Line Below Duty -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
+
                         <div class="text-team-detail">
                             จัดทำไฟล์ม็อด และแปลบทพูดของลีออน
                         </div>
@@ -114,19 +152,31 @@
                         <img src="./imgs/line/mask_line_vertical2.webp" class="line-vertical-2" alt="">
                         <img src="./imgs/line/mask_line_vertical3.webp" class="line-vertical-3" alt="">
                         <img src="./imgs/line/mask_line_vertical1.webp" class="line-vertical-4" alt="">
-                        
+
                     </div>
-    
-                    <div class="item-team">
+
+                    <div class="item-team reveal">
+                        <!-- Line Above Name -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
                         <div class="text-name">
                             มือแปลรับข้าง
                         </div>
+                        <!-- Line Below Name -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
+
                         <img src="./imgs/team/team2.webp" class="team-img" alt="">
+
+                        <!-- Line Above Duty -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
+
                         <div class="text-duty">
                             Proofreader
                         </div>
+                        <!-- Line Below Duty -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
+
                         <div class="text-team-detail">
-                            บรรณาธิการ พิสูจน์อักษร และแปลเอกสารกับ UI 
+                            บรรณาธิการ พิสูจน์อักษร และแปลเอกสารกับ UI
                         </div>
                         <img src="./imgs/line/mask_line_vertical1.webp" class="line-vertical-1" alt="">
                         <img src="./imgs/line/mask_line_vertical2.webp" class="line-vertical-2" alt="">
@@ -134,17 +184,27 @@
                         <img src="./imgs/line/mask_line_vertical1.webp" class="line-vertical-4" alt="">
                     </div>
 
-                    <div class="item-team">
+                    <div class="item-team reveal">
+                        <!-- Line Above Name -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
                         <div class="text-name">
                             อาบะป้ง
                         </div>
+                        <!-- Line Below Name -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
                         <img src="./imgs/team/team3.webp" class="team-img" alt="">
+
+                        <!-- Line Above Duty -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
                         <div class="text-duty">
                             Linguist
                         </div>
+                        <!-- Line Below Duty -->
+                        <img src="./imgs/line/mask_line1.webp" class="line-mobile" alt="">
                         <div class="text-team-detail">
                             แปลบทบรรยาย และบทพูดของเกรซ
                         </div>
+
                         <img src="./imgs/line/mask_line_vertical1.webp" class="line-vertical-1" alt="">
                         <img src="./imgs/line/mask_line_vertical2.webp" class="line-vertical-2" alt="">
                         <img src="./imgs/line/mask_line_vertical3.webp" class="line-vertical-3" alt="">
@@ -156,7 +216,7 @@
 
             <p id="preview" class="text_shaker text-topic text-preview">รูปตัวอย่าง</p>
 
-            <div class="preview-area">
+            <div class="preview-area reveal">
                 <img src="./imgs/line/mask_line1.webp" class="line-top-preview" alt="">
                 <img src="./imgs/line/mask_line2.webp" class="line-top-preview-2" alt="">
                 <img src="./imgs/line/mask_line_vertical2.webp" class="line-vertical-preview-1" alt="">
@@ -180,112 +240,132 @@
                 </div>
 
                 <div class="bt-area">
-                        <img src="./imgs/icon/icon_arrow.webp" class="bt-l" alt="">
+                    <img src="./imgs/icon/icon_arrow.webp" class="bt-l" alt="">
 
-                        <div class="item-time active" data-index="0">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>1</span>
-                        </div>
-                    
-                        <div class="item-time" data-index="1">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>2</span>
-                        </div>
-                    
-                        <div class="item-time" data-index="2">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>3</span>
-                        </div>
+                    <div class="item-time active" data-index="0">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>1</span>
+                    </div>
 
-                        <div class="item-time" data-index="3">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>4</span>
-                        </div>
+                    <div class="item-time" data-index="1">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>2</span>
+                    </div>
 
-                        <div class="item-time" data-index="4">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>5</span>
-                        </div>
+                    <div class="item-time" data-index="2">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>3</span>
+                    </div>
 
-                        <div class="item-time" data-index="5">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>6</span>
-                        </div>
+                    <div class="item-time" data-index="3">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>4</span>
+                    </div>
 
-                        <div class="item-time" data-index="6">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>7</span>
-                        </div>
+                    <div class="item-time" data-index="4">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>5</span>
+                    </div>
 
-                        <div class="item-time" data-index="7">
-                            <svg class="progress-ring" width="40" height="40">
-                                <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="20" cy="20"/>
-                            </svg>
-                            <span>8</span>
-                        </div>
+                    <div class="item-time" data-index="5">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>6</span>
+                    </div>
 
-                        <img src="./imgs/icon/icon_arrow.webp" class="bt-r" alt="">
+                    <div class="item-time" data-index="6">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>7</span>
+                    </div>
+
+                    <div class="item-time" data-index="7">
+                        <svg class="progress-ring" viewBox="0 0 40 40">
+                            <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent"
+                                r="18" cx="20" cy="20" />
+                        </svg>
+                        <span>8</span>
+                    </div>
+
+                    <img src="./imgs/icon/icon_arrow.webp" class="bt-r" alt="">
+                </div>
+
+                <!-- Mobile Only Controls -->
+                <div class="mobile-controls">
+                    <img src="./imgs/icon/icon_arrow.webp" class="bt-l-mobile" alt="">
+                    <img src="./imgs/icon/icon_arrow.webp" class="bt-r-mobile" alt="">
                 </div>
             </div>
 
             <p id="logo-thai" class="text_shaker text-topic text-preview">โลโก้ไทย</p>
 
-            <div class="logo-thai">
+            <div class="logo-thai reveal">
                 <div class="img-logo-thai">
                     <img src="./imgs/logo/logo.png" alt="">
                 </div>
                 <div class="text-logo-area">
-                    <h1 id="text-logo" class="text-detail">(คลิกขวาแล้วโหลดไปใช้ได้เลย)</h1>
+                    <h1 id="text-logo" class="text-detail text-pic">(คลิกขวาแล้วโหลดไปใช้ได้เลย)</h1>
                 </div>
-                
+
             </div>
 
             <p id="download-mod" class="text_shaker text-topic text-preview">โหลดม็อด</p>
 
-            <div class="mod-area">
-                    <img src="./imgs/line/mask_line1.webp" class="line-top-preview" alt="">
-                    <img src="./imgs/line/mask_line2.webp" class="line-top-preview-2" alt="">
-                    <img src="./imgs/line/mask_line1.webp" class="line-top-preview-4" alt="">
-                    <img src="./imgs/line/mask_line2.webp" class="line-top-preview-3" alt="">
-                    <img src="./imgs/line/mask_line1.webp" class="line-top-preview-5" alt="">
-                    <img src="./imgs/line/mask_line2.webp" class="line-top-preview-6" alt="">
-                    <img src="./imgs/line/mask_line_vertical1.webp" class="line-top-mod-vertical-1" alt="">
-                    <img src="./imgs/line/mask_line_vertical2.webp" class="line-top-mod-vertical-2" alt="">
-                    
+            <div class="mod-area reveal">
+                <img src="./imgs/line/mask_line1.webp" class="line-top-preview" alt="">
+                <img src="./imgs/line/mask_line2.webp" class="line-top-preview-2" alt="">
+                <img src="./imgs/line/mask_line1.webp" class="line-top-preview-4" alt="">
+                <img src="./imgs/line/mask_line2.webp" class="line-top-preview-3" alt="">
+                <img src="./imgs/line/mask_line1.webp" class="line-top-preview-5" alt="">
+                <img src="./imgs/line/mask_line2.webp" class="line-top-preview-6" alt="">
+                <img src="./imgs/line/mask_line_vertical1.webp" class="line-top-mod-vertical-1" alt="">
+                <img src="./imgs/line/mask_line_vertical2.webp" class="line-top-mod-vertical-2" alt="">
+
 
                 <div class="btn-mod-area">
-                    <a href="https://www.mediafire.com/file/katjxha1krb3uew/Resident_Evil_4_%25282005%2529_Thai_Edition.rar/file"> <div class="btn-mod">โหลดม็อดซับไทย</div> </a>
+                    <a
+                        href="https://www.mediafire.com/file/katjxha1krb3uew/Resident_Evil_4_%25282005%2529_Thai_Edition.rar/file">
+                        <div class="btn-mod">โหลดม็อดซับไทย</div>
+                    </a>
                 </div>
 
                 <div class="update-mod">
-                    <h1>อัปเดตล่าสุด : วันที่ 17 / 11 / 2568 เวลา 13:00 น. <br> หาเจอคำเขียนผิด แจ้งมาทางเพจ <a class="link-page" href="https://www.facebook.com/profile.php?id=61556639203732">มาม่าทอด</a>  ได้เลย</h1>
+                    <h1>อัปเดตล่าสุด : วันที่ 17 / 11 / 2568 เวลา 13:00 น. <br> หาเจอคำเขียนผิด แจ้งมาทางเพจ <a
+                            class="link-page" href="https://www.facebook.com/profile.php?id=61556639203732">มาม่าทอด</a>
+                        ได้เลย</h1>
                 </div>
 
-                
+
 
             </div>
 
-            <div class="how">
+            <div class="how reveal">
                 <p id="how-to-install" class="text_shaker text-topic text-preview text-mobile">วิธีลงม็อดซับไทย</p>
                 <img src="./imgs/line/mask_line1.webp" class="line-how" alt="">
 
                 <div class="text-how">
                     <div class="text-how-topic">โปรแกรมที่ต้องมี</div>
-                    <div class="text-how-topic"><a class="link" href="https://www.fluffyquack.com/tools/modmanager.rar">FLUFFY MANAGER 5000</a> </div>
+                    <div class="text-how-topic"><a class="link"
+                            href="https://www.fluffyquack.com/tools/modmanager.rar">FLUFFY MANAGER 5000</a> </div>
 
                     <div class="text-how-topic">ค่อยมาเขียนเพิ่มทีหลัง</div>
                     <img src="./imgs/how/how_1.png" alt="">
@@ -316,15 +396,26 @@
 
             <div class="footer"></div>
 
-            
 
-            
+
+
         </div>
     </div>
 
 
 
-    
+
+    <!-- Background Rain Sound -->
+    <audio id="rain-audio" loop>
+        <source src="./audio/rain.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Audio Toggle Button -->
+    <div id="audio-toggle" class="audio-btn">
+        <i class="fa-solid fa-volume-high"></i>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
