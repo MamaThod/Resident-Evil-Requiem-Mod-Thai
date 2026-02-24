@@ -22,6 +22,24 @@ a {
     cursor: default;
 }
 
+.area_donate {
+    width: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-items: space-between;
+
+
+    & img {
+        width: 30%;
+        height: 100%;
+        object-fit: contain;
+        margin-right: 20px;
+    }
+}
+
 
 
 * {
@@ -1224,6 +1242,23 @@ header {
 
         & .logo {
             transform: translate(-40%, -50%);
+        }
+    }
+
+    .area_donate {
+        width: auto;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        justify-items: space-between;
+        margin-bottom: 80px;
+
+
+        & img {
+            width: 80%;
+            margin: auto;
         }
     }
 
