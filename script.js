@@ -171,6 +171,9 @@ window.addEventListener('load', () => {
 
     // --- ระบบฝนตก (Rain Effect) ---
     const canvas = document.getElementById('rainCanvas');
+    const rainToggleBtn = document.getElementById('rainToggleBtn');
+    let isRainOn = true;
+
     if (canvas) {
         const ctx = canvas.getContext('2d');
         let drops = [];
@@ -194,6 +197,11 @@ window.addEventListener('load', () => {
         }
 
         function draw() {
+            if (!isRainOn) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                return;
+            }
+
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             for (let i = 0; i < drops.length; i++) {
                 let drop = drops[i];
@@ -220,6 +228,19 @@ window.addEventListener('load', () => {
         resizeCanvas();
         window.addEventListener('resize', resizeCanvas);
         draw();
+
+        // Toggle logic
+        if (rainToggleBtn) {
+            rainToggleBtn.addEventListener('click', () => {
+                isRainOn = !isRainOn;
+                if (isRainOn) {
+                    rainToggleBtn.classList.remove('off');
+                    draw(); // Restart animation loop if it was stopped
+                } else {
+                    rainToggleBtn.classList.add('off');
+                }
+            });
+        }
     }
 
     // --- Mobile Menu Toggle ---
