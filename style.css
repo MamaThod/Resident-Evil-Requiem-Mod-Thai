@@ -100,11 +100,15 @@ html {
             align-items: center;
             transition: 0.6s;
 
-            & img,
+            & img {
+                filter: drop-shadow(0 0 5px rgb(0, 0, 1));
+                transition: 0.6s;
+                margin-right: 10px;
+            }
+
             & i {
                 height: 100%;
                 margin-right: 10px;
-                filter: drop-shadow(0 0 5px rgb(0, 0, 1));
                 font-size: 2rem;
                 width: 30px;
                 text-align: center;
