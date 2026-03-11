@@ -30,6 +30,7 @@ a {
     align-items: center;
     margin-top: 20px;
     justify-items: space-between;
+    margin-bottom: 50px;
 
 
     & img {
@@ -924,6 +925,7 @@ header {
     height: auto;
     margin-bottom: 50px;
     text-align: center;
+    padding-top: 20px;
 
     & .text-how {
         font-size: 2rem;
@@ -1337,7 +1339,7 @@ header {
         align-items: center;
         margin-top: 20px;
         justify-items: space-between;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
 
 
         & img {
@@ -1840,4 +1842,16 @@ body {
         opacity: 0.5;
         letter-spacing: 1px;
     }
+}
+
+.two-d {
+    margin-top: -10px;
+}
+
+.text-detail.font-credit {
+    height: auto;
+}
+
+#how-to-install {
+    padding-top: 20px;
 }
