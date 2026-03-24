@@ -678,7 +678,7 @@ header {
             overflow: hidden;
 
             & .item-pre-area {
-                width: 800%;
+                width: 1100%;
                 height: 100%;
                 left: 0%;
                 position: absolute;
