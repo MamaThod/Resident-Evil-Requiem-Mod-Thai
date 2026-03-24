@@ -947,7 +947,7 @@ header {
         }
 
         & img {
-            width: 40%;
+            width: 50%;
             height: auto;
             object-fit: contain;
         }
@@ -958,6 +958,14 @@ header {
 
         & .text-how-topic.up {
             margin-top: 10px;
+        }
+
+        & .text-how-topic.up.up-two {
+            margin-top: 30px;
+        }
+
+        & .last-how.many {
+            margin-bottom: 20px;
         }
     }
 
@@ -1251,6 +1259,8 @@ header {
             & .last-how {
                 width: 90%;
             }
+
+
 
         }
     }
@@ -1854,4 +1864,8 @@ body {
 
 #how-to-install {
     padding-top: 50px;
+}
+
+.line-how-2 {
+    margin-top: 20px;
 }
